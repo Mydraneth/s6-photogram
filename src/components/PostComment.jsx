@@ -4,9 +4,9 @@ export default function PostComment({ comment }) {
 
 	return (
 		<p className="post-comment">
-			<span>john doe</span> {comment.username}
+			<span> {comment.username}</span>
 			<span className="sep">&middot;</span>
-			Loremasd ipsum dolor {comment.text}
+			{comment.text}
 		</p>
 	);
 }
